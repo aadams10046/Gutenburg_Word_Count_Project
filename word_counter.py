@@ -1,4 +1,4 @@
-from collections import Counter as c
+#Importing appropriate packages
 import pandas as pd
 import re
 import matplotlib.pyplot as plot
@@ -73,7 +73,7 @@ print(statistics)
 #Create .csv file cataloguing the variable statistics
 statistics.to_csv('Word_Count.csv')
 
-#Creating .csv files for each book's unique word list and count
+#Creating .csv files for each book's unique word list and count for use in grapher.py
 df_alcott = pd.DataFrame.from_dict(unique_count(book_reader(alcott), True), orient='index').to_csv('alcott_count.csv')
 df_eliot = pd.DataFrame.from_dict(unique_count(book_reader(eliot), True), orient='index').to_csv('eliot_count.csv')
 df_fielding = pd.DataFrame.from_dict(unique_count(book_reader(fielding), True), orient = 'index').to_csv('fielding_count.csv')
