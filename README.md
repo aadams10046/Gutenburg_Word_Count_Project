@@ -1,5 +1,5 @@
 # Gutenburg Word Count Project
-This is a project that performs analyses on some of the top downloaded books from [The Gutenberg Project](https://www.gutenberg.org/) in Python with visualizations in Python and Tableau.
+This is a project that performs analyses including natural language processing on some of the top downloaded books from [The Gutenberg Project](https://www.gutenberg.org/) in Python with visualizations in Python and Tableau.
 
 ## Skills Demonstrated
 * Python: including seaborn, matplotlib, pandas, regular expressions (RegEx) and defining functions
